@@ -8,14 +8,6 @@ import Me from "../images/me.png";
 
 const Heading = () => (
   <React.Fragment>
-    <DontClickThis>
-      <Link to="/chartjs">
-        <Dont>{`don't click this`}</Dont>
-      </Link>
-      <Link to="/sp404">
-        <Dont>{`or this`}</Dont>
-      </Link>
-    </DontClickThis>
     <HeadingContainer>
       <ImageContainer>
         <Myself src={Me} alt="Chris" />
@@ -120,23 +112,6 @@ const GitlabIcon = styled.img`
   @media (max-width: 500px) {
     padding-left: 14px;
     padding-right: 14px;
-  }
-`;
-
-const DontClickThis = styled.div`
-  position: absolute;
-  padding: 10px;
-  top: 0;
-  right: 0;
-`;
-
-const Dont = styled.h1`
-  color: #937341;
-  font-size: 1rem;
-  text-decoration: none;
-  :hover {
-    color: #a3997e;
-    cursor: pointer;
   }
 `;
 
