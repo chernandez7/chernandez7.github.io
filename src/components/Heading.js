@@ -16,9 +16,9 @@ const Heading = () => (
         <Name>{`Christopher Hernandez`}</Name>
       </StyledLink>
       <Subtitle>
-        {`Co-Founder, CTO @ `}
-        <StyledAnchor href="https://own-the-spot.com">
-          Own It Technologies, Inc.
+        {`Software Engineering Senior Analyst @ `}
+        <StyledAnchor href="https://www.accenture.com/us-en/services/technology/liquid-studios">
+          Accenture - Chicago Liquid Studios
         </StyledAnchor>
       </Subtitle>
       <Subtitle>
