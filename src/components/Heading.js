@@ -30,14 +30,9 @@ const Heading = () => (
         <a href={"https://gitlab.com/chernandez7"}>
           <GitlabIcon src={Gitlab} alt="gitlab" />
         </a>
-        <SimpleIcon
-          icon={"twitter"}
-          href={"https://twitter.com/_chernandez7"}
-        />
-        <SimpleIcon
-          icon={"linkedin"}
-          href={"https://www.linkedin.com/in/chernandez0/"}
-        />
+        <SimpleIcon icon={"twitter"} href={"https://twitter.com/_chernandez7"} />
+        <SimpleIcon icon={"linkedin"} href={"https://www.linkedin.com/in/chernandez0/"} />
+        <SimpleIcon icon={"dev.to"} href={"https://dev.to/chernandez7"} />
       </IconContainer>
     </HeadingContainer>
   </React.Fragment>
